@@ -2,7 +2,7 @@
 
 require_once("settings.php");
 
-if (isset($_COOKIES['AUTH'])) {
+if (isset($_COOKIE['AUTH'])) {
 	header("Location: /");
 	exit();
 }
